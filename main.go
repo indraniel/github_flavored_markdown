@@ -121,7 +121,7 @@ func (_ *renderer) BlockCode(out *bytes.Buffer, text []byte, lang string) {
 		out.WriteString(`<div class="highlight highlight-`)
 		attrEscape(out, []byte(elt))
 		lang = elt
-		out.WriteString(`"><pre>`)
+		out.WriteString(`"><pre><code>`)
 		count++
 		break
 	}
@@ -139,7 +139,7 @@ func (_ *renderer) BlockCode(out *bytes.Buffer, text []byte, lang string) {
 	if count == 0 {
 		out.WriteString("</code></pre>\n")
 	} else {
-		out.WriteString("</pre></div>\n")
+		out.WriteString("</code></pre></div>\n")
 	}
 }
 
