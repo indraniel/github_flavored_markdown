@@ -1,9 +1,11 @@
-# github_flavored_markdown [![Build Status](https://travis-ci.org/shurcooL/github_flavored_markdown.svg?branch=master)](https://travis-ci.org/shurcooL/github_flavored_markdown) [![GoDoc](https://godoc.org/github.com/shurcooL/github_flavored_markdown?status.svg)](https://godoc.org/github.com/shurcooL/github_flavored_markdown)
+# github_flavored_markdown 
+
+_(Note: this forked package has been altered to work better with [highlight.js][1], instead of [github.com's][2] [Linguist][3].)_ 
 
 Package github_flavored_markdown provides a GitHub Flavored Markdown renderer
 with fenced code block highlighting, clickable header anchor links.
 
-The functionality should be equivalent to the GitHub Markdown API endpoint specified at
+The functionality should be _ALMOST_ equivalent to the GitHub Markdown API endpoint specified at
 https://developer.github.com/v3/markdown/#render-a-markdown-document-in-raw-mode, except
 the rendering is performed locally.
 
@@ -20,3 +22,7 @@ License
 -------
 
 - [MIT License](http://opensource.org/licenses/mit-license.php)
+
+[1]: https://highlightjs.org/
+[2]: https://help.github.com/articles/github-flavored-markdown/
+[3]: https://github.com/github/linguist

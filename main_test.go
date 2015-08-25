@@ -4,7 +4,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/shurcooL/github_flavored_markdown"
+	"github.com/indraniel/github_flavored_markdown"
 )
 
 func ExampleMarkdown() {
