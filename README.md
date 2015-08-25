@@ -15,7 +15,7 @@ Installation
 ------------
 
 ```bash
-go get -u github.com/shurcooL/github_flavored_markdown
+go get -u github.com/indraniel/github_flavored_markdown
 ```
 
 License
